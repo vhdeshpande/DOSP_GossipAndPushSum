@@ -9,7 +9,6 @@ This project aims to analyze gossip-type algorithms using an Erlang actor model 
 Commands to start the algorithm:
 ``` 
 c(gossipAndPushSum).
-c(bitcoinMiningServer).
 gossipAndPushSum:start_gossip ( number_of_nodes, topology, algorithm ).
 ```
 Where ‘number_of_node’ is the number of nodes in the topology, ‘topology’ is the topology which includes full network, line, 2D grid, and Imperfect 3D and the algorithm includes gossip or push sum algorithm
